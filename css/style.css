@@ -1,1 +1,4 @@
-/* Denna fil skall innehålla din CSS kod */
+#cardwrapper {
+    display: flex;
+    
+}
