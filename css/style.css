@@ -1,4 +1,24 @@
 #cardwrapper {
     display: flex;
-    
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: auto;
+}
+
+section {
+border: 3px solid grey (71, 71, 71);
+width: 250px;
+height: 250px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+section:hover {
+    height: 300px;
+}
+
+#cardwrapper section p {
+    font-size: 2em;
 }
