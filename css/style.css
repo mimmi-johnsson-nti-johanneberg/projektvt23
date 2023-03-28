@@ -1,3 +1,28 @@
+#wrapper {
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 'hd'
+    'main'
+    'ft';
+}
+
+header {
+    grid-area: hd;
+    background-color: aqua;
+}
+
+main {
+    grid-area: main;
+    background-color: bisque;
+}
+
+footer {
+    grid-area: ft;
+    background-color: darksalmon;
+}
+
 #cardwrapper {
     display: flex;
     flex-wrap: wrap;
